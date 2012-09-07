@@ -34,6 +34,9 @@ and re-push.
     $ git pull -s recursive -X theirs upstream master
 2) Push the new changes upstream
     $ git push
+3) Update MediaWiki to the new version by visiting
+  http://mediawiki-$yourlogin.rhcloud.com/mw-config/
+  or by running `php update.php` in the maintenance directory on your server.
 
 
 Repo layout
